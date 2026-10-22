@@ -33,3 +33,8 @@ On Start (Repeat)
 **Blackboard variables:** Self (GameObject), Target (GameObject), Speed (float), **PlayerDistance** (float, exposed), **IsBraced** (bool, exposed; reserved for the braced state in the full design).
 
 Requirements check: 1 condition (Branch On), 2+ actions/outcomes (Jab / Braced Thrust), 2+ Blackboard variables (PlayerDistance, IsBraced, plus Self/Target/Speed).
+
+## Docs
+- `Docs/MP3_Red_Pawn_Jaeshin_Jung.pdf`: individual design PDF (identity, counterplay, information model, HSM, BT, Blackboard, MDA+A, Schell lenses, Senet X carry-forward)
+- `Docs/Pawn_HSM.png`, `Docs/Pawn_BehaviorTree_ENGAGE.png`: diagrams
+- `Docs/BehaviorGraph_PlayMode.png`: Behavior Graph in Play mode with the debugger attached
